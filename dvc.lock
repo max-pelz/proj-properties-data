@@ -1,0 +1,38 @@
+schema: '2.0'
+stages:
+  source@addresses:
+    cmd: python scripts/ingest_data.py addresses
+    deps:
+    - path: scripts/ingest_data.py
+      hash: md5
+      md5: 65b877ea8d2c90d269d40ffdbb05f940
+      size: 635
+    outs:
+    - path: data/source/src_addresses.csv
+      hash: md5
+      md5: 1f2bbe98ea9ff41b089b51c43ba6e6fd
+      size: 35589
+  source@properties:
+    cmd: python scripts/ingest_data.py properties
+    deps:
+    - path: scripts/ingest_data.py
+      hash: md5
+      md5: 65b877ea8d2c90d269d40ffdbb05f940
+      size: 635
+    outs:
+    - path: data/source/src_properties.csv
+      hash: md5
+      md5: 10d25d5a8512ff936f57f785c9898f4e
+      size: 80819
+  source@users:
+    cmd: python scripts/ingest_data.py users
+    deps:
+    - path: scripts/ingest_data.py
+      hash: md5
+      md5: 65b877ea8d2c90d269d40ffdbb05f940
+      size: 635
+    outs:
+    - path: data/source/src_users.csv
+      hash: md5
+      md5: 8a1088e85395255f26fa7aff2900969d
+      size: 1128

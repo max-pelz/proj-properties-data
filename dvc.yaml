@@ -1,0 +1,32 @@
+stages:
+
+  # INGEST DATA
+  # In our case, this is simply copying local csv files
+  ingest_data:
+    foreach:
+      - addresses
+      - properties
+      - users
+    do:
+      cmd: python scripts/ingest_data.py ${item}
+      deps:
+        - scripts/ingest_data.py
+      outs:
+        - data/source/src_${item}.csv
+  
+  # CREATE STAGE
+  # Transform the csv files into dataframes and do some
+  # basic cleaning like removing duplicates, handling null
+  # values and renaming columns.
+  create_stage:
+    foreach:
+      - addresses
+      - properties
+      - users
+    do:
+      cmd: python stg_${item}.py
+      deps:
+        - scripts/stg_${item}.py
+        - data/source/src_${item}.csv
+    outs:
+      - data/stage/stg_${item}.pickle

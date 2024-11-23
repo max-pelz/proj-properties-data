@@ -1,0 +1,7 @@
+dvc
+pandas
+jupyter
+python-dotenv
+numpy
+matplotlib
+seaborn
