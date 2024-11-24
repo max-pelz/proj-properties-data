@@ -9,7 +9,7 @@ Note that the repo does not contain the data and the pipeline structure follows 
 The `data` folder contains another README with thoughts on the data and a summary of the actions taken, while the `plots` folder contains a README with some of the gained insights and the business recommendations following from those insights.
 
 ## Requirements
-It's assumed that you python 3 installed on your machine. After cloning the repo follow these steps:
+It's assumed that you have python 3 installed on your machine. After cloning the repo follow these steps:
 
 1. Create a virtual environment
 
@@ -31,7 +31,7 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-Finally, you need unzip the raw data onto your machine and point the pipeline to it. There's a `.env`file that's pointing to the Downloads folder on my unix machine. If you're on unix yourself, simply change the user name, and also change the path should your local database folder be located elsewhere:
+Finally, you need unzip to the raw data onto your machine and point the pipeline to it. There's a `.env` file that's pointing to the Downloads folder on my unix machine. If you're on unix yourself, simply change the user name, and also change the path should your local database folder be located elsewhere:
 
 ```
 DB_PATH=<absolute path to the folder containing the csv files>
