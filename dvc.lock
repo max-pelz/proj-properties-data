@@ -36,3 +36,151 @@ stages:
       hash: md5
       md5: 8a1088e85395255f26fa7aff2900969d
       size: 1128
+  ingest_data@addresses:
+    cmd: python scripts/ingest_data.py addresses
+    deps:
+    - path: scripts/ingest_data.py
+      hash: md5
+      md5: 65b877ea8d2c90d269d40ffdbb05f940
+      size: 635
+    outs:
+    - path: data/source/src_addresses.csv
+      hash: md5
+      md5: 1f2bbe98ea9ff41b089b51c43ba6e6fd
+      size: 35589
+  ingest_data@properties:
+    cmd: python scripts/ingest_data.py properties
+    deps:
+    - path: scripts/ingest_data.py
+      hash: md5
+      md5: 65b877ea8d2c90d269d40ffdbb05f940
+      size: 635
+    outs:
+    - path: data/source/src_properties.csv
+      hash: md5
+      md5: 10d25d5a8512ff936f57f785c9898f4e
+      size: 80819
+  ingest_data@users:
+    cmd: python scripts/ingest_data.py users
+    deps:
+    - path: scripts/ingest_data.py
+      hash: md5
+      md5: 65b877ea8d2c90d269d40ffdbb05f940
+      size: 635
+    outs:
+    - path: data/source/src_users.csv
+      hash: md5
+      md5: 8a1088e85395255f26fa7aff2900969d
+      size: 1128
+  create_stage@addresses:
+    cmd: python stg_addresses.py
+    deps:
+    - path: ../data/source/src_addresses.csv
+      hash: md5
+      md5: 1f2bbe98ea9ff41b089b51c43ba6e6fd
+      size: 35589
+    - path: stg_addresses.py
+      hash: md5
+      md5: c06fc9fe731d21d94a1da5c773a81f86
+      size: 5470
+    outs:
+    - path: ../data/stage/stg_addresses.pickle
+      hash: md5
+      md5: 6150ea98307c61e3f514e525a0da5997
+      size: 27414
+  create_stage@properties:
+    cmd: python stg_properties.py
+    deps:
+    - path: ../data/source/src_properties.csv
+      hash: md5
+      md5: 10d25d5a8512ff936f57f785c9898f4e
+      size: 80819
+    - path: stg_properties.py
+      hash: md5
+      md5: 1e1245ce170c60e3bd35d48b66ac8f37
+      size: 3012
+    outs:
+    - path: ../data/stage/stg_properties.pickle
+      hash: md5
+      md5: 5b78c81fa1a4c3c9568bdd044ba895c2
+      size: 36984
+  create_stage@users:
+    cmd: python stg_users.py
+    deps:
+    - path: ../data/source/src_users.csv
+      hash: md5
+      md5: 8a1088e85395255f26fa7aff2900969d
+      size: 1128
+    - path: stg_users.py
+      hash: md5
+      md5: 0dc7ba9c6c5b44b5165927a498b073d6
+      size: 1897
+    outs:
+    - path: ../data/stage/stg_users.pickle
+      hash: md5
+      md5: 0ceb9e8138bceb556ff2b68c26f90638
+      size: 2207
+  create_facts:
+    cmd: python fct_co2_emissions.py
+    deps:
+    - path: ../data/stage/stg_properties.pickle
+      hash: md5
+      md5: 5b78c81fa1a4c3c9568bdd044ba895c2
+      size: 36984
+    - path: stg_properties.py
+      hash: md5
+      md5: 1e1245ce170c60e3bd35d48b66ac8f37
+      size: 3012
+    outs:
+    - path: ../data/facts/fct_co2_emissions.csv
+      hash: md5
+      md5: f596309020c489b6f01931fd7bba1beb
+      size: 59772
+  create_dimensions@addresses:
+    cmd: python dim_addresses.py
+    deps:
+    - path: ../data/stage/stg_addresses.pickle
+      hash: md5
+      md5: 6150ea98307c61e3f514e525a0da5997
+      size: 27414
+    - path: dim_addresses.py
+      hash: md5
+      md5: b61da28fb771460e24a8b2d0da98921e
+      size: 762
+    outs:
+    - path: ../data/dimensions/dim_addresses.csv
+      hash: md5
+      md5: 5d8aba731913e911a39391188ab1ac3d
+      size: 21795
+  create_dimensions@properties:
+    cmd: python dim_properties.py
+    deps:
+    - path: ../data/stage/stg_properties.pickle
+      hash: md5
+      md5: 5b78c81fa1a4c3c9568bdd044ba895c2
+      size: 36984
+    - path: dim_properties.py
+      hash: md5
+      md5: 9cc3fbffed9f6d5b7e690b9792549c9d
+      size: 519
+    outs:
+    - path: ../data/dimensions/dim_properties.csv
+      hash: md5
+      md5: 0ade16a794a06c7bc731f4bd609708d4
+      size: 29279
+  create_dimensions@users:
+    cmd: python dim_users.py
+    deps:
+    - path: ../data/stage/stg_users.pickle
+      hash: md5
+      md5: 0ceb9e8138bceb556ff2b68c26f90638
+      size: 2207
+    - path: dim_users.py
+      hash: md5
+      md5: 11fc4ed1e363c1cb92ab33219acd9b66
+      size: 723
+    outs:
+    - path: ../data/dimensions/dim_users.csv
+      hash: md5
+      md5: e204408a18505eadcfaed441bb8e5642
+      size: 1048

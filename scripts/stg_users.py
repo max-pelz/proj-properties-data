@@ -16,6 +16,11 @@ df = pd.read_csv(input_path, encoding="utf-8")
 
 # Summary statistics of the data
 
+print()
+print()
+print("USERS")
+print()
+
 num_rows, num_columns = df.shape
 print(f"Number of rows: {num_rows}")
 print(f"Number of columns: {num_columns}")
@@ -75,8 +80,11 @@ df = df.rename(columns={'created_at': 'created_at_utc'})
 # Ensure the user id is unique
 assert df['id'].is_unique, "User id is not unique"
 
-# Ensure created_at_utc is not null
-assert df['created_at_utc'].notnull().all(), "Created at timestamp is null"
+columns = ['id', 'created_at_utc']
+
+# Ensure that columns are non-null
+for col in columns:
+    assert df[col].notnull().all(), f"{col} has null values"
 
 # %%
 

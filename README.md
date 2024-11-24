@@ -2,9 +2,11 @@
 Ingestion and analysis of a small mock database of real estate properties.
 
 ## Process
-A data pipeline is built with [DVC](https://dvc.org/) which first cleans and transforms the .csv files in `data`, then produces some charts for analysis in `plots`. Note that the repo does not contain the data and the pipeline structure follows dbt best practices. The pipeline is very verbose and somewhat messy to allow the reader to follow the process for understanding and cleaning the data.
+A data pipeline is built with [DVC](https://dvc.org/) which first cleans and transforms the .csv files in `data` with the scripts in `scripts`, then produces some charts for analysis in `plots`.
 
-The `data` folder contains another README with a summary of the actions taken, while the `plots` folder contains a README with some of the gained insights and the business recommendations following from those insights.
+Note that the repo does not contain the data and the pipeline structure follows dbt best practices. The scripts are very verbose and somewhat messy to allow the reader to follow the process for understanding and cleaning the data.
+
+The `data` folder contains another README with thoughts on the data and a summary of the actions taken, while the `plots` folder contains a README with some of the gained insights and the business recommendations following from those insights.
 
 ## Requirements
 It's assumed that you python 3 installed on your machine. After cloning the repo follow these steps:

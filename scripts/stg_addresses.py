@@ -19,6 +19,10 @@ df = pd.read_csv(input_path, encoding="utf-8")
 
 # Summary statistics of the data
 
+print()
+print("ADDRESSES")
+print()
+
 num_rows, num_columns = df.shape
 print(f"Number of rows: {num_rows}")
 print(f"Number of columns: {num_columns}")

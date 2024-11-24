@@ -16,6 +16,11 @@ df = pd.read_csv(input_path, encoding="utf-8")
 
 # Summary statistics of the data
 
+print()
+print()
+print("PROPERTIES")
+print()
+
 # Temporarily disable pandas truncation
 pd.set_option('display.max_columns', None)
 
@@ -86,7 +91,7 @@ df_with_both = df_with_both.dropna(
 )
 
 print("Properties where both co2 JSON columns are available:")
-print(df_with_both.shape)
+print(df_with_both.shape[0])
 
 # %%
 
@@ -98,6 +103,47 @@ df_with_both['json_matches'] = df_with_both.apply(
     axis=1
 )
 
-print("Number of these columns matching:")
+print("Number of rows where these columns match:")
 matches = df_with_both[df_with_both['json_matches']]
-print(matches.shape)
+print(matches.shape[0])
+
+# %%
+
+# Coalesce total_co2_cost and total_co2_emissions
+df['total_co2_costs_or_emissions'] = df['total_co2_costs'] \
+    .fillna(df['total_co2_emissions'])
+
+# Drop the previous columns
+df.drop(
+    columns=['total_co2_costs', 'total_co2_emissions'],
+    inplace = True
+)
+
+# %%
+
+# Convert the column to nullable integer type (Int64)
+df['construction_year'] = df['construction_year'].astype('Int64')
+
+print("Data types of each column:")
+print(df.dtypes)
+print()
+
+# %%
+
+# Data quality
+
+# Ensure the user id is unique
+assert df['id'].is_unique, "User id is not unique"
+
+columns = ['id', 'created_at_utc']
+
+# Ensure that columns are non-null
+for col in columns:
+    assert df[col].notnull().all(), f"{col} has null values"
+
+# %%
+
+# Save the transformed data
+df.to_pickle(output_path)
+
+# %%
