@@ -189,9 +189,9 @@ stages:
     deps:
     - path: ../data/dimensions/
       hash: md5
-      md5: eb20414a9a56e2fada10f52ae64b8778.dir
+      md5: 98ffcb0872175bb99afc5ad934aa28c9.dir
       size: 52122
-      nfiles: 3
+      nfiles: 4
     - path: ../data/facts/fct_co2_emissions.csv
       hash: md5
       md5: f596309020c489b6f01931fd7bba1beb

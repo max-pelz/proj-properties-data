@@ -31,11 +31,13 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-Finally, you need unzip to the raw data onto your machine and point the pipeline to it. There's a `.env` file that's pointing to the Downloads folder on my unix machine. If you're on unix yourself, simply change the user name, and also change the path should your local database folder be located elsewhere:
+Finally, you need unzip to the raw data onto your machine and point the pipeline to it. Create an `.env` that's pointing to the folder containing the unzipped .csv files like so:
 
 ```
 DB_PATH=<absolute path to the folder containing the csv files>
 ```
+
+The default name of the unzipped folder is `mpe_database_randomized`.
 
 ## Usage
 

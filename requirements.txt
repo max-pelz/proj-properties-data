@@ -4,4 +4,3 @@ jupyter
 python-dotenv
 numpy
 matplotlib
-seaborn
