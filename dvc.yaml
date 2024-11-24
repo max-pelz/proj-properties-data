@@ -60,18 +60,23 @@ stages:
       outs:
         - ../data/dimensions/dim_${item}.csv
 
-    # CREATE PLOTS
-    # Use the analysis script to further explore
-    # the data and create a number of relevant plots
-    analyze:
-      cmd: python analysis.py
-      wdir: scripts
-      deps:
-        - dim_addresses.py
-        - dim_properties.py
-        - dim_users.py
-        - fct_co2_emissions.py
-        - ../data/dimensions/
-        - ../data/facts/fct_co2_emissions.csv
-      outs:
-        - ../plots/
+  # CREATE PLOTS
+  # Use the analysis script to further explore
+  # the data and create a number of relevant plots
+  analyze:
+    cmd: python analysis.py
+    wdir: scripts
+    deps:
+      - dim_addresses.py
+      - dim_properties.py
+      - dim_users.py
+      - fct_co2_emissions.py
+      - ../data/dimensions/
+      - ../data/facts/fct_co2_emissions.csv
+    outs:
+      - ../plots/properties_by_city.png
+      - ../plots/properties_by_plz.png
+      - ../plots/box_plots.png
+      - ../plots/scatter_co2_intensity_vs_construction_year.png
+      - ../plots/bar_charts_text_and_boolean_categories.png
+      - ../plots/boxplot_co2_emissions_by_year.png

@@ -97,8 +97,8 @@ stages:
       size: 80819
     - path: stg_properties.py
       hash: md5
-      md5: 1e1245ce170c60e3bd35d48b66ac8f37
-      size: 3012
+      md5: 5f8a43260104e65d13926468ce71081f
+      size: 3020
     outs:
     - path: ../data/stage/stg_properties.pickle
       hash: md5
@@ -113,8 +113,8 @@ stages:
       size: 1128
     - path: stg_users.py
       hash: md5
-      md5: 0dc7ba9c6c5b44b5165927a498b073d6
-      size: 1897
+      md5: b128cc029e6d84b0cdd3f7c141494ab3
+      size: 1905
     outs:
     - path: ../data/stage/stg_users.pickle
       hash: md5
@@ -129,8 +129,8 @@ stages:
       size: 36984
     - path: stg_properties.py
       hash: md5
-      md5: 1e1245ce170c60e3bd35d48b66ac8f37
-      size: 3012
+      md5: 5f8a43260104e65d13926468ce71081f
+      size: 3020
     outs:
     - path: ../data/facts/fct_co2_emissions.csv
       hash: md5
@@ -184,3 +184,56 @@ stages:
       hash: md5
       md5: e204408a18505eadcfaed441bb8e5642
       size: 1048
+  analyze:
+    cmd: python analysis.py
+    deps:
+    - path: ../data/dimensions/
+      hash: md5
+      md5: eb20414a9a56e2fada10f52ae64b8778.dir
+      size: 52122
+      nfiles: 3
+    - path: ../data/facts/fct_co2_emissions.csv
+      hash: md5
+      md5: f596309020c489b6f01931fd7bba1beb
+      size: 59772
+    - path: dim_addresses.py
+      hash: md5
+      md5: b61da28fb771460e24a8b2d0da98921e
+      size: 762
+    - path: dim_properties.py
+      hash: md5
+      md5: 9cc3fbffed9f6d5b7e690b9792549c9d
+      size: 519
+    - path: dim_users.py
+      hash: md5
+      md5: 11fc4ed1e363c1cb92ab33219acd9b66
+      size: 723
+    - path: fct_co2_emissions.py
+      hash: md5
+      md5: 2aa483a651bdd46c2d97ddb950c298bb
+      size: 2068
+    outs:
+    - path: ../plots/bar_charts_text_and_boolean_categories.png
+      hash: md5
+      md5: 54fe20f17fabf4ab101bb5fc395abd22
+      size: 241159
+    - path: ../plots/box_plots.png
+      hash: md5
+      md5: bd5a99e2f96c2b8eaf3c5eedac5ec27a
+      size: 114663
+    - path: ../plots/boxplot_co2_emissions_by_year.png
+      hash: md5
+      md5: 51b70422bcab646036b2a265e00f32e1
+      size: 35893
+    - path: ../plots/properties_by_city.png
+      hash: md5
+      md5: 54d8da3a317f49495ab08f2b41defe07
+      size: 25847
+    - path: ../plots/properties_by_plz.png
+      hash: md5
+      md5: 68646533aba4cb849cbd40c99f960d04
+      size: 28363
+    - path: ../plots/scatter_co2_intensity_vs_construction_year.png
+      hash: md5
+      md5: ef0045c7ae66960e39871bf5ed13cad2
+      size: 41702
