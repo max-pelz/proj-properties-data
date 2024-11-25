@@ -109,5 +109,8 @@ target/
 # plots
 *.png
 
+# virtual environment
+venv/
+
 # TODOs and other notes
 TODO
