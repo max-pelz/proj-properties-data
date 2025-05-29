@@ -4,9 +4,12 @@ Ingestion and analysis of a small mock database of real estate properties.
 ## Process
 A data pipeline is built with [DVC](https://dvc.org/) which first cleans and transforms the .csv files in `data` with the scripts in `scripts`, then produces some charts for analysis in `plots`.
 
-Note that the repo does not contain the data and the pipeline structure follows dbt best practices. The scripts are very verbose and somewhat messy to allow the reader to follow the process for understanding and cleaning the data.
+Note that the pipeline structure follows dbt best practices. The scripts are very verbose and somewhat messy to allow the reader to follow the process for understanding and cleaning the data.
 
 The `data` folder contains another README with thoughts on the data and a summary of the actions taken, while the `plots` folder contains a README with some of the gained insights and the business recommendations following from those insights.
+
+## Data Policy
+All data is committed to this repository as it's based on mock data. Normally, we would exclude data files from version control. However, if you want to see the script's output, you'll need to run the pipeline locally as the processed data and generated plots are not included in the repository.
 
 ## Requirements
 It's assumed that you have python 3 installed on your machine. After cloning the repo follow these steps:
@@ -31,13 +34,7 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-Finally, you need unzip to the raw data onto your machine and point the pipeline to it. Create an `.env` that's pointing to the folder containing the unzipped .csv files like so:
-
-```
-DB_PATH=<absolute path to the folder containing the csv files>
-```
-
-The default name of the unzipped folder is `mpe_database_randomized`.
+The mock data is already included in the repository in the `data/mpe_database_randomized` folder, so no additional setup is required.
 
 ## Usage
 

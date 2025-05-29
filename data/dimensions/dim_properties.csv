@@ -1,0 +1,151 @@
+id,created_by,air_conditioning_available,co2_factor_electricity,co2_factor_heating,co2_intensity,commercial_usage_type,company_name,construction_year,energy_intensity,energy_modernization,heating_energy_source,orientation,potential,potential_rating,property_type,splitting_factor,splitting_factor_commercial,splitting_factor_residential,total_commercial_floor_area,total_energy_demand_consumption,total_floor_area,total_residential_floor_area,ventilation_available
+01653bc6-d8f6-397c-aad3-2ceb0dfd12f6,25d35441-d624-3a46-931f-7c05dad78cc0,,,95.88,,,Waldklang Consulting AG,1985,44.11,True,Öl-Heizung,portrait,green,A,Wohngebäude,,,,29.25,,,,True
+01726baa-6439-34cb-85f9-85b759d656b7,266c3025-b1bd-31aa-91ee-2a845cdc373e,False,,,53.77,,Smaragdlicht Consulting GmbH,2005,,,Gasheizung/Gasetagenheizung,,,,Gewerbeimmobilie,50.76,79.79,88.52,,67.72,,14.56,False
+072f9220-32e2-3b56-9247-15b82c1f3f86,11fb1eac-fbb3-34a8-9669-42ead18abcbe,,,,74.0,Logistik/Handwerk,Funkelbach Solutions AG,,22.59,,Fernwärme,landscape,green,A,Gewerbeimmobilie,12.74,,,,24.71,57.05,,
+0dc24d40-327c-3935-9274-4e3a8fff38d6,9c2e2535-c2f0-3fd7-9b3c-d14de6cf9835,False,26.81,31.43,98.7,Supermarkt,Steinwald Systems KG,1975,50.09,True,Fernwärme,portrait,Potential Rot,G,Gewerbeimmobilie,,87.23,,3.3,46.4,,,
+0e2efae6-b3ed-31d0-99ea-1c042709b13f,741e2915-6c1c-3057-9579-37a040b1f806,True,2.59,10.87,29.9,Logistik/Handwerk,Tauwasser Consulting KG,2013,59.51,False,Öl-Heizung,,green,A+,,,10.53,15.75,,,61.52,,False
+1253b741-9d3a-3d61-9600-3a2be08dffb2,1813d8ea-fb68-3913-8cfc-7509c45e4797,False,,14.23,29.39,Büro,Eichenwald Technologie AG,1972,59.51,,Elektro,portrait,red,D,,1.67,12.43,29.78,50.72,,,92.58,True
+125e74c7-01f0-34be-8127-b7688aa84c56,1eec5d93-b4fb-3180-9654-911023d5c46e,False,,,22.36,,Elbestern Logistik KG,,5.21,True,Fernwärme,,green,A+,Wohngebäude,,65.13,34.28,45.94,36.79,,14.4,
+142a5080-444d-31a4-a1a1-da9f400ae519,7a209a5c-a1a2-38b5-ac4e-9f2813ec6ca2,,99.29,95.11,83.91,,Smaragdlicht Consulting GmbH,,,,Holzpellet-Heizung,,,,,34.44,,89.59,,,75.57,3.92,False
+14fc7b94-b8c3-316e-a853-ca26d03a8596,2df80de1-65c9-3c17-a449-abb6b88ea225,,,,,,Stadtblick Digital GmbH,2003,,,Fernwärme,landscape,,,Gemischt,48.69,,,,89.16,36.81,5.38,
+15b01851-7d57-3f0f-97d3-9071e4030121,edebdbf7-c6bc-3867-9787-6ff20132120c,,37.04,,3.78,"Freizeit, Erholung & Gastro",Eisberg Logistik AG,2001,23.69,,Öl-Heizung,,red,D,,31.82,,86.19,,95.26,,27.39,True
+1ae7163f-03ff-3c8e-9597-c09f5f5f0698,edebdbf7-c6bc-3867-9787-6ff20132120c,False,,33.32,93.47,,Bergsteiger Technologie GmbH,,25.54,True,Holzpellet-Heizung,,,,,77.22,34.57,,19.24,,,43.75,
+1e8cd5d9-d95a-3989-9d96-f0d915fca65c,11fb1eac-fbb3-34a8-9669-42ead18abcbe,False,77.94,26.29,,Büro,Luftgold Technologies GmbH,,44.48,,Gasheizung/Gasetagenheizung,portrait,,,,,25.94,,,61.66,,51.41,
+1f8c3e38-8fd9-35a9-b1f2-fd1b45308a79,25d35441-d624-3a46-931f-7c05dad78cc0,,,84.57,,Supermarkt,Klarstein Digital AG,2003,,,Holzpellet-Heizung,landscape,,,,28.4,15.92,34.7,21.75,14.63,61.36,,False
+21ba6e43-b7cb-371d-a757-13ea2051492f,2df80de1-65c9-3c17-a449-abb6b88ea225,False,,9.55,,"Freizeit, Erholung & Gastro",Kranichberg IT GmbH,2019,64.58,,Holzpellet-Heizung,portrait,yellow,B,,52.82,98.71,,67.65,8.13,58.09,7.71,
+22752379-20b4-3726-b27c-caef122b97de,0f0f4a15-bb10-31f0-823e-b43f9f6df1c1,,36.62,12.85,49.86,,Eichenblick Solutions GmbH,,,True,Fernwärme,portrait,,,,,24.74,,,,,89.14,False
+22ef5a4d-0f78-3662-869a-e8a00829e045,1eec5d93-b4fb-3180-9654-911023d5c46e,False,75.74,97.63,35.29,,Eichenwald Technologie AG,,,,Öl-Heizung,landscape,,,Wohngebäude,,,90.76,,,18.26,,
+259cc9de-f917-3b1c-b1a9-c97c2ebfa22c,e13e013f-a560-32db-91db-2065df79ccce,True,,7.54,,Einzelhandel,Silberwald Energie KG,1978,88.13,True,Holzpellet-Heizung,portrait,yellow,B,,4.26,,11.21,,48.56,,,True
+29cb5cbf-f53d-3b5c-baf6-1b66656e03b5,11fb1eac-fbb3-34a8-9669-42ead18abcbe,False,,99.26,,Gesundheitswesen,,1994,,,Holzpellet-Heizung,landscape,green,A,Gewerbeimmobilie,,29.81,57.24,94.73,19.95,,38.0,
+2d291466-2ebc-398e-94dc-5dbb08495b1a,9c2e2535-c2f0-3fd7-9b3c-d14de6cf9835,,80.15,,,Büro,Lichterberg Innovations AG,,,False,Wärmepumpe,landscape,,,,16.71,,60.07,73.2,,65.95,,
+2d4c8146-de7f-38ff-9ae9-2fe984ebf20b,266c3025-b1bd-31aa-91ee-2a845cdc373e,False,,54.08,24.47,Supermarkt,Luftgold Technologies GmbH,2013,21.19,True,Gasheizung/Gasetagenheizung,,red,D,,43.02,,,,,,,True
+2e245d7a-d242-3268-b4b5-2672d7e0ca94,7d224af6-a62d-354a-b5a4-5dd5f4e5ae1b,True,,9.82,,Büro,Funkelbach Solutions AG,,59.25,False,Öl-Heizung,portrait,,,,,,,15.11,,60.49,,False
+2ff7c060-2b34-3fca-a44b-b5e74d1a1424,7a209a5c-a1a2-38b5-ac4e-9f2813ec6ca2,,16.67,39.62,0.61,,Stadtblick Digital GmbH,1996,93.29,False,Wärmepumpe,portrait,,,,,45.98,,57.58,59.92,68.36,57.12,True
+33121f4b-3705-331c-8194-c2649e24f5ce,1eec5d93-b4fb-3180-9654-911023d5c46e,,85.55,26.59,,Einzelhandel,Ostwind Systems AG,,8.14,,Holzpellet-Heizung,,,,Gemischt,,,15.37,76.06,,17.64,,
+35724ea5-3374-308b-b98b-1c5ea94ab0b0,741e2915-6c1c-3057-9579-37a040b1f806,True,58.23,8.18,,,Sonnenquelle Innovations AG,2000,,,Wärmepumpe,,,,Gewerbeimmobilie,1.07,,,,19.43,31.4,22.17,False
+359ec498-7e83-33f3-8d09-ff89b49e0aeb,7d224af6-a62d-354a-b5a4-5dd5f4e5ae1b,,,67.15,,,Meeresblick Ventures GmbH,1986,,True,Öl-Heizung,,,,,,,,,,25.52,,
+36f8ce39-83b2-3bd9-8d52-589d3a165065,0f0f4a15-bb10-31f0-823e-b43f9f6df1c1,True,73.24,,,,Kranichberg IT GmbH,,98.8,False,Öl-Heizung,,green,A,,,,,,,,4.22,False
+388f8c44-cfd1-32f7-957e-eaac448f28b4,0f0f4a15-bb10-31f0-823e-b43f9f6df1c1,False,,17.8,93.25,,Glanzfels Consulting AG,1978,,False,Fernwärme,,Potential Rot,F,,17.91,62.85,,,53.5,,,True
+38f9317f-542d-32dc-8dfb-1f5ae2cacbcb,e13e013f-a560-32db-91db-2065df79ccce,,,,8.55,Büro,Schwarzwald Technik GmbH,,18.1,,Öl-Heizung,portrait,Potential Rot,E,,,,,78.55,,89.33,96.93,False
+38fd6542-e7bb-3882-be4a-7d3619dc8cbe,3f03dea8-1cdf-3968-9811-0881de5823b5,,,31.77,31.7,Einzelhandel,Strandblick Consulting GmbH,1999,,,Elektro,portrait,yellow,C,,50.9,83.56,,,,,,True
+390b48af-1062-3e7d-a3af-7348a810dee0,741e2915-6c1c-3057-9579-37a040b1f806,True,,78.32,,,Eisberg Logistik AG,1988,0.32,False,Öl-Heizung,,,,Wohngebäude,37.95,8.98,,53.6,,,84.39,True
+3b3c5fd2-4636-3b9e-a1b6-2b57b8a75e40,266c3025-b1bd-31aa-91ee-2a845cdc373e,,12.37,,,Logistik/Handwerk,Weingarten Ventures GmbH,1972,67.97,,Fernwärme,landscape,,,,26.75,68.77,,91.53,50.69,36.8,,True
+3c1fcf47-bb2c-3885-9c35-0ee67b6699d5,1813d8ea-fb68-3913-8cfc-7509c45e4797,,82.09,33.17,66.85,,Goldmond Media GmbH,2005,48.03,False,Elektro,landscape,Potential Rot,E,,,,24.37,,99.34,,97.64,
+3e92db49-a2de-355e-9fe6-539b38fdfbd3,9c2e2535-c2f0-3fd7-9b3c-d14de6cf9835,,,54.56,12.09,,Smaragdlicht Consulting GmbH,,,,Öl-Heizung,landscape,Potential Rot,G,Wohngebäude,,68.93,76.49,54.86,,88.75,66.13,
+409ec451-8e06-3a05-9d84-3f491b9e5ae5,1eec5d93-b4fb-3180-9654-911023d5c46e,,40.92,,15.6,"Freizeit, Erholung & Gastro",Waldstein Solutions GmbH,,,True,Holzpellet-Heizung,portrait,red,D,,,,34.64,,71.25,,22.85,True
+40f613a9-9138-329f-ab9a-8ee502129d7f,1eec5d93-b4fb-3180-9654-911023d5c46e,True,60.42,99.8,,,Wetterhof Ventures AG,,73.59,True,Fernwärme,portrait,,,,,17.31,15.05,84.92,,97.73,84.05,True
+42e04b0a-37df-3753-936b-ba21f7af5714,edebdbf7-c6bc-3867-9787-6ff20132120c,,,0.81,,,Strandland Consulting GmbH,1993,,True,Fernwärme,,Potential Rot,G,,,98.9,,,80.78,,,
+43adbaa1-75c3-34dd-8c10-bd8a5a5959f5,3f03dea8-1cdf-3968-9811-0881de5823b5,,,,72.54,,Regenlicht Consulting AG,,86.69,,Öl-Heizung,,yellow,C,Gemischt,71.82,,84.85,,,72.5,35.6,
+450eea3e-00ca-376c-98b3-b7618768f40c,1813d8ea-fb68-3913-8cfc-7509c45e4797,True,18.79,32.07,60.28,,Himmelslicht Solutions KG,1972,,False,Öl-Heizung,portrait,Potential Rot,E,Gewerbeimmobilie,,30.96,,26.58,,,,
+4583585e-be46-366a-b5dd-a8e90bc85661,11fb1eac-fbb3-34a8-9669-42ead18abcbe,False,,,,Büro,Berglicht Systems AG,1979,,False,Holzpellet-Heizung,,red,D,Gewerbeimmobilie,,55.17,,90.41,29.17,,33.97,
+485c017e-26bc-3301-82ae-05c03d8c90e2,9c2e2535-c2f0-3fd7-9b3c-d14de6cf9835,True,6.16,12.81,39.45,,Meeresstern IT GmbH,2002,17.49,True,Wärmepumpe,,,,Gewerbeimmobilie,,95.07,,,4.38,,,
+487de686-3875-3916-89f6-e53da4786c75,11fb1eac-fbb3-34a8-9669-42ead18abcbe,True,0.37,2.93,,Logistik/Handwerk,Felsenland Technologies GmbH,2017,26.54,,Öl-Heizung,portrait,Potential Rot,F,,48.76,98.54,,67.05,,44.71,,
+4f013edd-d61c-3cdc-b09a-fbc28a3dd802,9c2e2535-c2f0-3fd7-9b3c-d14de6cf9835,,35.72,,,Büro,Regenbogen Systems KG,2005,37.91,,Elektro,,,,Gewerbeimmobilie,10.21,,82.33,84.87,,,,
+4f62cfd0-8d51-3178-a5be-1dabc65e5054,edebdbf7-c6bc-3867-9787-6ff20132120c,,,,39.76,Büro,Wellenblick Systems GmbH,,56.11,False,Fernwärme,portrait,,,Gemischt,,,,27.79,,,,
+515219ea-0a40-3966-b85b-59afafadc882,7a209a5c-a1a2-38b5-ac4e-9f2813ec6ca2,False,,,79.99,Supermarkt,Regenlicht Consulting AG,2003,31.15,,Elektro,,,,,76.39,,,59.24,,,,
+522d8727-f6c7-37d2-9f5a-374387e40fff,266c3025-b1bd-31aa-91ee-2a845cdc373e,,13.25,26.6,52.93,,Sternenhof Beratung GmbH,2007,63.39,True,Elektro,landscape,yellow,B,Wohngebäude,,,94.78,39.27,87.87,41.13,,True
+5698a1e0-b33e-38cf-965c-0d71a3756bca,266c3025-b1bd-31aa-91ee-2a845cdc373e,True,,,,Einzelhandel,Windrose Solutions AG,1976,,False,Fernwärme,,,,Gemischt,81.86,,78.07,,,,,
+5a496c09-e10e-3234-96ea-587946f3bcb0,3f03dea8-1cdf-3968-9811-0881de5823b5,,52.63,41.39,32.67,Logistik/Handwerk,Weinblick Energie AG,,6.51,,Elektro,,green,A,Gewerbeimmobilie,,71.85,30.39,43.67,3.66,,53.45,True
+5a5bde14-bab2-37da-bfa7-0381c7ac1f35,a6d36034-1aad-3c68-9383-0b372fe51abd,,35.72,41.74,35.3,,Tauwasser Consulting KG,2005,16.1,False,Elektro,portrait,Potential Rot,F,Wohngebäude,17.82,,66.84,,,86.25,52.16,True
+5b193d65-9ea8-3ec5-adf1-9926a56821b6,7d224af6-a62d-354a-b5a4-5dd5f4e5ae1b,,67.42,64.16,3.28,Büro,Windspitze Systems KG,,67.85,False,Holzpellet-Heizung,portrait,,,Gewerbeimmobilie,,1.57,,,82.95,,90.49,
+5e152524-f43d-3674-8cfc-7a58880c07a2,edebdbf7-c6bc-3867-9787-6ff20132120c,False,,,,,Meeresstern IT GmbH,,0.92,True,Gasheizung/Gasetagenheizung,,red,D,,,59.27,50.43,,,84.24,3.72,
+608d5597-8405-3035-b2a0-8dcf72111bbe,11fb1eac-fbb3-34a8-9669-42ead18abcbe,,,87.5,,,Funkelwald Energie GmbH,,49.54,True,Gasheizung/Gasetagenheizung,landscape,red,D,Gewerbeimmobilie,,32.03,,28.41,98.13,69.98,21.48,
+61de2014-0d99-3226-8aa3-cc01d046bba8,1813d8ea-fb68-3913-8cfc-7509c45e4797,,85.0,,,,Sternlicht Media AG,,88.2,,Fernwärme,landscape,,,,,59.9,,,,15.13,60.74,False
+6274fadd-2bd1-3e58-826c-c0187713533f,edebdbf7-c6bc-3867-9787-6ff20132120c,True,19.52,79.11,79.09,Supermarkt,Regenbogen Systems KG,,57.84,,Öl-Heizung,,,,,46.86,33.08,,4.84,,73.1,,False
+62c60140-4175-3f27-a1c2-57bd4cc73da4,edebdbf7-c6bc-3867-9787-6ff20132120c,,81.89,,77.89,,Meeresblick Energie GmbH,2018,,,Fernwärme,portrait,,,,,,70.32,59.29,20.65,91.21,99.29,True
+65575dce-a919-3b88-a510-9ee8ce168412,2df80de1-65c9-3c17-a449-abb6b88ea225,False,4.68,80.32,50.33,Büro,Berggold Consulting GmbH,,,False,Elektro,landscape,,,,,97.5,52.05,,,,58.15,True
+670b7ced-d11b-3cd8-ba87-937368864ed2,e13e013f-a560-32db-91db-2065df79ccce,True,29.69,57.25,50.75,,Nebelhorn Ventures GmbH,,16.31,,Öl-Heizung,portrait,,,Gewerbeimmobilie,,78.03,,41.61,,,6.61,True
+67d5fd1e-cdfa-37d4-ade2-ecbe32f479f1,3f03dea8-1cdf-3968-9811-0881de5823b5,True,21.38,,,"Freizeit, Erholung & Gastro",Schneesturm Logistik KG,,,True,Elektro,portrait,Potential Rot,G,,14.19,11.62,10.6,50.39,,67.32,72.99,
+6954017c-8977-3956-a661-05e114d106d0,9c2e2535-c2f0-3fd7-9b3c-d14de6cf9835,False,44.0,,31.36,"Freizeit, Erholung & Gastro",Steinkristall Ventures AG,2003,97.61,False,Wärmepumpe,,,,,21.64,75.07,82.88,47.99,34.48,71.96,15.42,False
+6d819721-9900-3681-97cc-b6a020d1ffe8,25d35441-d624-3a46-931f-7c05dad78cc0,False,,94.72,,Supermarkt,Felsenquelle Media GmbH,1990,55.22,False,Öl-Heizung,landscape,red,D,Wohngebäude,,93.45,,2.01,,,,
+70ee81c3-34e1-3bee-8873-c9a7fd81dd59,3f03dea8-1cdf-3968-9811-0881de5823b5,,8.7,59.25,,Gesundheitswesen,Wasserberg Solutions AG,,24.52,False,Fernwärme,,Potential Rot,E,Gewerbeimmobilie,,,,29.35,90.97,23.54,32.01,True
+72577846-8bcb-35fb-9b19-41d4ec9da7e0,7a209a5c-a1a2-38b5-ac4e-9f2813ec6ca2,True,,11.61,14.94,,Klarwald Solutions GmbH,1996,91.14,,Fernwärme,portrait,,,Gewerbeimmobilie,,81.73,,,14.05,,,True
+73df2128-d325-33b8-afcf-25123b23c6d7,9c2e2535-c2f0-3fd7-9b3c-d14de6cf9835,,62.25,,41.18,,Alpenblick Consulting GmbH,2006,3.69,True,Elektro,landscape,Potential Rot,F,,,,,91.4,,84.49,,True
+751fb49a-bf5f-3a8d-93ac-73c1a23c850f,0f0f4a15-bb10-31f0-823e-b43f9f6df1c1,,,,,,Küstenblick Ventures GmbH,,86.08,True,Elektro,,green,A,Wohngebäude,,,,70.3,,,74.01,True
+7597aa9a-0f41-3f85-90ae-dac213ebb8e9,7d224af6-a62d-354a-b5a4-5dd5f4e5ae1b,,46.81,47.05,,,MainRiver Systems KG,2024,,False,Gasheizung/Gasetagenheizung,,Potential Rot,F,,,52.89,,,,71.88,,
+788123a9-92ee-3562-a696-ad43b534bd24,7a209a5c-a1a2-38b5-ac4e-9f2813ec6ca2,False,87.86,,,Einzelhandel,Höhenluft Beratung GmbH,,62.47,False,Wärmepumpe,,,,Gemischt,,97.89,72.06,,9.54,,,True
+797dff9b-6831-3d4b-b6dc-cf09a8421524,741e2915-6c1c-3057-9579-37a040b1f806,False,,,,,Elbestern Logistik KG,1995,23.04,,Holzpellet-Heizung,landscape,green,A+,,,,45.66,99.9,,4.35,51.62,True
+7b924b94-47df-3a63-85a7-d9d0e8f07203,25d35441-d624-3a46-931f-7c05dad78cc0,,46.08,,13.62,Gesundheitswesen,Höhenluft Beratung GmbH,,55.24,False,Gasheizung/Gasetagenheizung,landscape,green,A,,11.81,85.87,,,67.3,,54.66,False
+7bbd2614-a622-3967-a42b-7c7ab5c28d46,11fb1eac-fbb3-34a8-9669-42ead18abcbe,True,69.54,11.27,15.13,Supermarkt,Königsfels Systems AG,,,,Gasheizung/Gasetagenheizung,,Potential Rot,E,Gewerbeimmobilie,83.68,2.26,,91.91,,,,True
+7e5813ea-1d2c-3ad6-8425-15dfd302c462,7a209a5c-a1a2-38b5-ac4e-9f2813ec6ca2,,,,,,Meeresfels Solutions KG,1976,,,Wärmepumpe,,Potential Rot,G,Gemischt,69.08,1.84,,,47.52,48.12,37.3,
+7e71b9a7-b4c8-30a8-a9b6-7df2b33dfdc5,a6d36034-1aad-3c68-9383-0b372fe51abd,,49.25,30.34,26.28,,Berglicht Systems AG,,,,Wärmepumpe,portrait,,,Gemischt,,79.0,42.49,,48.3,,53.7,True
+81f196fc-67c9-3168-aa0a-13981ddaa53c,edebdbf7-c6bc-3867-9787-6ff20132120c,True,57.48,,22.84,,Strahlend Media AG,2000,73.49,False,Wärmepumpe,landscape,,,,18.43,,,18.0,,22.7,,False
+834e0944-3be9-3fe4-8d71-4799ce2aed1c,25d35441-d624-3a46-931f-7c05dad78cc0,False,,34.76,,,Schlossgarten Ventures GmbH,1978,2.9,,Elektro,,,,Gemischt,,,95.87,52.94,16.4,,,False
+89e7a23c-d29b-35de-9efb-7cf407e41294,11fb1eac-fbb3-34a8-9669-42ead18abcbe,,42.68,,77.1,,Wiesengrün Energie GmbH,2018,,,Holzpellet-Heizung,,,,,,18.78,87.85,,,42.0,,
+8a736ab4-7a30-352a-9a9e-a819c45ec88f,2df80de1-65c9-3c17-a449-abb6b88ea225,True,86.94,,,Gesundheitswesen,Traumfels Energie GmbH,1998,38.23,,Holzpellet-Heizung,portrait,green,A,,,,,,24.9,,,
+8bca006b-392e-3cb6-ac78-d29af4460cea,e13e013f-a560-32db-91db-2065df79ccce,False,33.53,,,Büro,Flussufer Systems KG,,11.35,,Fernwärme,landscape,green,A+,Gewerbeimmobilie,,,,81.16,35.9,,,False
+8dc7836a-0e9c-3bc1-b18e-e3d2ed8abfb1,266c3025-b1bd-31aa-91ee-2a845cdc373e,True,,20.64,5.18,Gesundheitswesen,Schneefall Logistik KG,2022,,True,Holzpellet-Heizung,landscape,,,Wohngebäude,60.78,46.89,,96.58,,26.81,,False
+8e214bf1-40f8-3d31-a4dd-a678e1fb7f91,1813d8ea-fb68-3913-8cfc-7509c45e4797,,,3.07,10.04,,SolarHorizon Technologies GmbH,,,,Gasheizung/Gasetagenheizung,landscape,yellow,B,Gewerbeimmobilie,52.3,48.59,,,74.25,,76.05,True
+8f796a6e-51cc-347a-acfe-d4d12862dd3f,a6d36034-1aad-3c68-9383-0b372fe51abd,,69.99,89.17,,,Smaragdhof Ventures KG,1996,18.76,,Wärmepumpe,,Potential Rot,F,Gewerbeimmobilie,,33.06,,,35.44,,40.52,True
+908bfa48-acfd-3cdf-bdd5-efb2b0e48d48,e13e013f-a560-32db-91db-2065df79ccce,,24.46,37.29,,,Himmelsgrün Digital GmbH,,43.84,False,Elektro,,,,,58.76,,31.43,,77.35,55.88,99.51,
+91b44eaf-54a9-3207-a9bf-770e0894cdaf,25d35441-d624-3a46-931f-7c05dad78cc0,True,55.3,,,,Wolkenfels Innovations GmbH,,36.68,,Fernwärme,portrait,,,Gewerbeimmobilie,,49.17,45.26,80.66,,,,
+9515e2d6-c82d-3c4d-af95-034567b89be9,741e2915-6c1c-3057-9579-37a040b1f806,False,,96.7,68.92,Büro,Wasserstein Group AG,2015,,True,Elektro,landscape,,,Gewerbeimmobilie,69.55,,85.35,67.51,49.19,17.86,,False
+96953d71-a129-3c13-a37d-00ac43d77bac,3f03dea8-1cdf-3968-9811-0881de5823b5,True,50.02,,64.81,Gesundheitswesen,Adlerfels Ventures GmbH,1996,84.33,True,Elektro,portrait,green,A+,,85.99,93.24,,7.83,,,,True
+96a3d829-71d2-35dc-a902-8d75aa199c33,7d224af6-a62d-354a-b5a4-5dd5f4e5ae1b,False,,76.64,4.79,,Flussgold Consulting GmbH,,72.1,False,Wärmepumpe,portrait,green,A,,5.27,75.35,35.29,99.01,83.1,93.87,12.15,
+982676c4-5ea7-305b-8fa4-34ab2f73ec2c,a6d36034-1aad-3c68-9383-0b372fe51abd,,,44.48,,Gesundheitswesen,Eberstein Innovations AG,,,,Fernwärme,,,,Wohngebäude,,60.3,56.01,,31.94,17.85,,False
+99c9a74e-a344-3477-86da-0cbbb5200407,741e2915-6c1c-3057-9579-37a040b1f806,,37.75,,84.88,"Freizeit, Erholung & Gastro",Himmelsgrün Digital GmbH,,,,Fernwärme,,Potential Rot,E,Wohngebäude,,,,75.17,22.69,20.74,14.01,True
+99de67f3-1444-3b0b-b64e-cf4001ace437,e13e013f-a560-32db-91db-2065df79ccce,,58.16,,,,Steinbach Ventures KG,1980,35.93,,Fernwärme,portrait,green,A+,Gewerbeimmobilie,91.71,44.85,,,31.24,,,
+9aa14863-5a88-3029-8575-b9af1e413cf9,0f0f4a15-bb10-31f0-823e-b43f9f6df1c1,False,4.5,,40.07,Einzelhandel,Nordwind Technik AG,,50.78,,Fernwärme,portrait,,,,15.2,29.33,,,39.98,87.1,42.98,
+9c455aa2-bd27-342a-b91c-b3b00a70ed95,266c3025-b1bd-31aa-91ee-2a845cdc373e,False,47.78,65.64,17.58,Supermarkt,Waldquelle Systems KG,,,,Elektro,portrait,,,,,9.86,,71.89,,,,
+9f1cf600-616b-334c-92a1-3a9abff2c42b,0f0f4a15-bb10-31f0-823e-b43f9f6df1c1,True,12.99,70.57,,Supermarkt,Flussgold Consulting GmbH,,30.05,False,Fernwärme,landscape,Potential Rot,E,Gewerbeimmobilie,,,,,44.82,54.07,35.04,
+a0d7c5e0-270d-3c8b-838b-bc9a1cf8c4d7,11fb1eac-fbb3-34a8-9669-42ead18abcbe,True,47.58,54.24,78.14,,Schmetterling Energie GmbH,2001,55.12,True,Elektro,,,,Gemischt,,,,51.25,47.26,,,True
+a10148e1-389c-365a-aaf0-ea66c27fbde0,7d224af6-a62d-354a-b5a4-5dd5f4e5ae1b,False,98.65,99.82,,Logistik/Handwerk,Weitenfeld Energie AG,2008,,,Öl-Heizung,portrait,,,,98.66,,80.7,,56.74,,86.31,
+a3fbb241-654c-3347-a3e4-bb8a00e297a6,edebdbf7-c6bc-3867-9787-6ff20132120c,False,4.76,72.23,,,Sonnenwind Logistik KG,,,,Wärmepumpe,,,,Gewerbeimmobilie,5.74,,69.43,,,,20.12,
+a41c37f8-0e3a-3fbb-b550-6fe9e6a854f8,1813d8ea-fb68-3913-8cfc-7509c45e4797,True,,,78.14,,Meeresfels Solutions KG,1983,,False,Elektro,,green,A,Gewerbeimmobilie,16.99,,36.81,94.61,79.0,,43.98,False
+a4836ec2-fa65-393d-b097-f2b4f6bb1c0f,0f0f4a15-bb10-31f0-823e-b43f9f6df1c1,,48.52,60.64,62.7,Einzelhandel,Himmelslicht Solutions KG,2004,,True,Gasheizung/Gasetagenheizung,landscape,,,Gemischt,27.51,80.84,53.04,86.46,9.9,,29.59,False
+a7014214-852a-37ae-a8ef-92efa94686d3,1813d8ea-fb68-3913-8cfc-7509c45e4797,,34.87,1.41,53.43,Logistik/Handwerk,Smaragdlicht Consulting GmbH,2006,,False,Öl-Heizung,,,,,41.76,89.88,,,45.97,92.42,53.91,
+a8f18696-de2b-32fe-a666-92e1a0f963c2,e13e013f-a560-32db-91db-2065df79ccce,False,32.61,,,,Flussufer Systems KG,1986,25.31,True,Holzpellet-Heizung,landscape,,,Gewerbeimmobilie,44.07,0.01,17.92,11.33,,21.54,69.47,
+abfbdf5a-affe-3605-a8e1-35b3cf9cc86c,a6d36034-1aad-3c68-9383-0b372fe51abd,,92.02,,,,Eisbach Logistik AG,,,False,Wärmepumpe,portrait,yellow,B,,99.79,,,84.74,81.38,,96.93,True
+ac832f8a-228b-3c57-91a4-96ce589e949a,7a209a5c-a1a2-38b5-ac4e-9f2813ec6ca2,True,,56.72,73.03,,ElbeVision Group GmbH,,,False,Gasheizung/Gasetagenheizung,,,,,79.32,,,,,,,
+b04ca667-e3d3-3dad-9846-14b4d1c1eb8d,a6d36034-1aad-3c68-9383-0b372fe51abd,True,76.37,,73.26,Einzelhandel,Berggold Consulting GmbH,,,,Wärmepumpe,,,,,0.57,,,46.63,63.31,55.19,69.13,
+b0d5d920-a523-3c36-9d92-6fb4121a5ad1,e13e013f-a560-32db-91db-2065df79ccce,True,21.7,89.36,,Supermarkt,Adlerfels Ventures GmbH,,,True,Gasheizung/Gasetagenheizung,portrait,,,,,86.83,91.07,2.06,,31.97,83.02,True
+b1cfafc4-5d16-3590-8d3c-5830eb30d308,3f03dea8-1cdf-3968-9811-0881de5823b5,,39.27,,88.05,"Freizeit, Erholung & Gastro",Nordlicht Solutions GmbH,,,True,Öl-Heizung,,,,Gemischt,33.1,43.28,,,,,,
+b1ee23c8-da57-3515-8104-3a38982cb203,2df80de1-65c9-3c17-a449-abb6b88ea225,,,,57.78,Büro,Küstenkraft Werke AG,,,True,Elektro,portrait,,,,69.41,,,71.58,58.44,84.42,,
+b2042d94-5e99-3880-ad4e-0b15f387919f,741e2915-6c1c-3057-9579-37a040b1f806,,,,,,Funkelbach Solutions AG,2024,,False,Gasheizung/Gasetagenheizung,,green,A+,,41.86,,,,25.11,,,
+b43717a0-8800-3c5e-bd93-c8a39625acbe,9c2e2535-c2f0-3fd7-9b3c-d14de6cf9835,True,15.64,,96.55,Einzelhandel,Wald & Wiese Design GmbH,,47.26,True,Fernwärme,,,,Wohngebäude,,33.58,31.43,78.55,,98.78,,
+b4477552-727f-373b-b60d-d1336512a62d,3f03dea8-1cdf-3968-9811-0881de5823b5,,,,,Einzelhandel,Sternenhof Beratung GmbH,,61.36,True,Gasheizung/Gasetagenheizung,portrait,red,D,Gewerbeimmobilie,21.7,,,,,63.88,,
+b64f62d9-5ee8-318b-aa6d-291c9f16098c,edebdbf7-c6bc-3867-9787-6ff20132120c,,89.71,57.46,32.53,,Traumlicht Logistik KG,,,True,Gasheizung/Gasetagenheizung,landscape,Potential Rot,G,Gewerbeimmobilie,,25.99,,,,,69.16,
+b66410f0-a2f3-3067-972c-552449992ce7,25d35441-d624-3a46-931f-7c05dad78cc0,True,,,,Supermarkt,Felsenquelle Media GmbH,,98.3,,Fernwärme,portrait,red,D,,29.42,,93.75,,,,,
+ba793b4f-c5f0-3eed-8779-dca9e73c02e0,7d224af6-a62d-354a-b5a4-5dd5f4e5ae1b,True,41.43,54.86,62.41,Logistik/Handwerk,Strandgold Logistik KG,1980,40.36,True,Öl-Heizung,portrait,Potential Rot,F,Gemischt,10.01,,,,,,,
+bd729679-d5c3-38e6-b7b8-2bc6fe90744f,741e2915-6c1c-3057-9579-37a040b1f806,True,8.47,11.7,,,Blumenquelle Energie GmbH,1987,,True,Gasheizung/Gasetagenheizung,portrait,,,Gemischt,,,41.75,97.76,,,,
+be620e71-30db-3bee-91ed-941686e17a36,2df80de1-65c9-3c17-a449-abb6b88ea225,False,83.02,65.55,,,Gipfelsturm Ventures GmbH,,11.73,,Wärmepumpe,,yellow,C,Gemischt,60.33,82.55,,43.99,47.0,,82.63,
+be972d42-facb-37f5-b554-5c1be864c1be,7d224af6-a62d-354a-b5a4-5dd5f4e5ae1b,True,,92.46,,,Tannenland Innovations GmbH,2019,46.37,,Öl-Heizung,landscape,red,D,Gewerbeimmobilie,,5.81,,,81.5,,,
+bff651cb-6c45-3f96-8398-e0612d312a70,2df80de1-65c9-3c17-a449-abb6b88ea225,False,42.25,32.18,10.34,,Ostwind Systems AG,1994,,True,Fernwärme,,,,Gewerbeimmobilie,,,,73.29,39.04,83.64,,
+c1ec21ba-2b5c-36db-87b3-bbd05168bbc9,1eec5d93-b4fb-3180-9654-911023d5c46e,False,12.37,,,,Schneefall Logistik KG,,,,Holzpellet-Heizung,portrait,Potential Rot,G,,79.79,,,,,40.65,66.97,
+c848fcfa-6d76-3b4f-868f-0a4f8239c41e,7a209a5c-a1a2-38b5-ac4e-9f2813ec6ca2,,,,,"Freizeit, Erholung & Gastro",RheinLand Ventures GmbH,,,False,Fernwärme,landscape,Potential Rot,G,,87.8,11.8,13.48,,,82.86,54.03,True
+c90e94fb-005f-3322-ae8e-e8d2b119e64f,25d35441-d624-3a46-931f-7c05dad78cc0,,,,40.79,Gesundheitswesen,Steingarten Consulting GmbH,,81.83,False,Fernwärme,,yellow,C,Wohngebäude,,62.34,,93.28,,,48.23,False
+cc859995-a764-3f63-a472-afa13965eebf,1eec5d93-b4fb-3180-9654-911023d5c46e,,,,,"Freizeit, Erholung & Gastro",Funkelstern Group GmbH,1994,,,Fernwärme,portrait,Potential Rot,G,,,15.69,94.66,72.38,,66.79,9.45,False
+cff1b198-e70b-341a-9dd7-8e02dbf05c2b,0f0f4a15-bb10-31f0-823e-b43f9f6df1c1,,,,93.85,,Lichterwald Ventures KG,,,,Fernwärme,,,,Wohngebäude,,,62.78,62.13,57.69,81.02,,False
+d2f05728-9665-324a-994d-1f35dd85aa82,2df80de1-65c9-3c17-a449-abb6b88ea225,False,60.29,,,,Talblick Ventures GmbH,,,,Wärmepumpe,,green,A,Gemischt,94.31,73.41,,1.86,74.49,,58.21,False
+d508a196-227b-3e67-950e-931772b86d23,25d35441-d624-3a46-931f-7c05dad78cc0,,,44.4,10.4,,Mondgold Solutions KG,1971,98.92,False,Elektro,,Potential Rot,G,Wohngebäude,79.14,,62.36,86.44,69.13,32.28,,False
+d554a25a-5494-3fbb-a0d3-63bb9da884a2,266c3025-b1bd-31aa-91ee-2a845cdc373e,,,25.06,,"Freizeit, Erholung & Gastro",Lichterberg Innovations AG,1971,,True,Gasheizung/Gasetagenheizung,landscape,,,Gewerbeimmobilie,57.61,,82.72,,,97.98,84.63,True
+d6d114f9-c6a9-37dd-8763-9866f6e61b14,25d35441-d624-3a46-931f-7c05dad78cc0,False,26.71,78.42,6.86,"Freizeit, Erholung & Gastro",Meeresstern IT GmbH,,59.18,False,Holzpellet-Heizung,portrait,,,,50.16,30.96,9.68,,79.83,,65.07,False
+d84049bc-2f6d-3211-883f-2c5ff345a228,266c3025-b1bd-31aa-91ee-2a845cdc373e,,75.94,,,,Königsfels Systems AG,,93.13,True,Holzpellet-Heizung,portrait,green,A+,,,49.19,,27.48,,27.29,,False
+dafad665-5346-302f-9987-5c325a587437,a6d36034-1aad-3c68-9383-0b372fe51abd,,19.37,,33.75,"Freizeit, Erholung & Gastro",Nebelhorn Ventures GmbH,2011,,,Elektro,,,,Wohngebäude,,,19.88,,,62.21,30.62,True
+dc031699-b6b2-3deb-9f6c-b208ea2ece1d,a6d36034-1aad-3c68-9383-0b372fe51abd,,,,97.93,,Südwind Energie AG,2019,98.32,False,Fernwärme,,Potential Rot,E,Wohngebäude,,,,,53.55,71.73,,False
+dc5c1e14-0e36-3fa0-bd98-f81e2d1a27b1,741e2915-6c1c-3057-9579-37a040b1f806,,6.1,46.8,,,Goldstrom Digital GmbH,1977,,True,Gasheizung/Gasetagenheizung,,,,Gewerbeimmobilie,,,77.35,,89.39,6.14,,
+dd3a0547-3572-3ab2-beed-efbeb968a937,11fb1eac-fbb3-34a8-9669-42ead18abcbe,True,,,82.83,Gesundheitswesen,Küstenkraft Werke AG,1993,,True,Wärmepumpe,landscape,Potential Rot,F,Gemischt,85.78,97.28,33.06,,,38.9,,True
+df8c696a-a202-314f-83e5-8ff02f79fd0c,1813d8ea-fb68-3913-8cfc-7509c45e4797,False,6.27,65.49,,,Flussufer Systems KG,1980,,,Wärmepumpe,,Potential Rot,F,Gemischt,,,73.18,,,,,
+e151e737-82d9-39ef-a7f5-d729af18e911,1eec5d93-b4fb-3180-9654-911023d5c46e,,18.44,38.66,49.83,,Himmelblick Technologies KG,,76.35,,Wärmepumpe,,red,D,Gemischt,4.0,,81.77,38.16,,48.89,19.6,
+e3701449-b099-3c20-bbb5-fbf0ff80dee6,1813d8ea-fb68-3913-8cfc-7509c45e4797,True,,,,,Felsenquelle Media GmbH,2018,19.3,True,Wärmepumpe,portrait,green,A,Gewerbeimmobilie,,74.89,49.06,28.02,15.17,,31.45,True
+e3b7e67d-25c2-3573-90ef-15bccec7191e,0f0f4a15-bb10-31f0-823e-b43f9f6df1c1,False,88.52,35.38,,,Eisbach Logistik AG,1997,,,Elektro,portrait,Potential Rot,F,Gemischt,,,,52.5,98.68,,97.1,False
+e5333382-fbb9-371c-886e-44c04a55e148,1813d8ea-fb68-3913-8cfc-7509c45e4797,,61.04,,,,Weingarten Ventures GmbH,1979,,False,Fernwärme,portrait,green,A+,Wohngebäude,70.54,81.68,,,81.72,,,True
+e643f805-ffa0-3679-9f94-0134440e95fb,a6d36034-1aad-3c68-9383-0b372fe51abd,False,6.11,65.77,53.63,Büro,Ostwind Systems AG,1978,20.97,False,Gasheizung/Gasetagenheizung,portrait,,,,22.52,,,55.78,,,,
+e68e919e-3f1d-371b-b4d1-a63cd7c94135,7d224af6-a62d-354a-b5a4-5dd5f4e5ae1b,True,98.85,54.05,,,Himmelsbach Systems AG,,4.44,False,Wärmepumpe,landscape,,,,,,81.23,,,,68.11,False
+e75deff2-636e-3449-b8c4-6a72e17e6728,7d224af6-a62d-354a-b5a4-5dd5f4e5ae1b,True,43.61,83.84,,,Steinbach Ventures KG,2013,,True,Holzpellet-Heizung,,,,Gemischt,49.07,,97.76,,55.04,98.37,,False
+e9ec69dc-cf5f-3108-a808-e6e242db71ef,e13e013f-a560-32db-91db-2065df79ccce,False,51.75,98.79,58.38,,Flussblick Ventures AG,2000,55.34,False,Fernwärme,landscape,yellow,C,,52.79,,40.03,24.81,,96.76,79.08,
+eab45b6c-03a3-309c-92d6-bfd855f1b1cf,9c2e2535-c2f0-3fd7-9b3c-d14de6cf9835,,,,,,Meeresblick Ventures GmbH,1982,,True,Elektro,portrait,,,Gewerbeimmobilie,8.24,,36.56,26.76,1.97,87.9,0.79,
+ecfec273-4516-36d0-816f-eb1fc97cb987,2df80de1-65c9-3c17-a449-abb6b88ea225,True,36.49,,,,Weinreben IT GmbH,1993,,,Elektro,,,,Gemischt,92.8,44.3,84.17,,,95.25,,
+ed26f600-b72b-3d71-be81-853912ddf3af,741e2915-6c1c-3057-9579-37a040b1f806,,69.57,98.44,,Gesundheitswesen,Smaragd Solutions GmbH,1993,34.52,,Elektro,portrait,yellow,B,,48.22,,17.3,,75.38,,97.88,
+f007dd8e-abb8-33d7-b706-ef2900a1e143,e13e013f-a560-32db-91db-2065df79ccce,,66.04,,57.1,Einzelhandel,Lindengrün Systems KG,1984,80.74,,Elektro,,,,Gewerbeimmobilie,,19.07,62.75,,,91.02,88.15,
+f2e5722b-3612-3ff1-bbba-698048d84855,3f03dea8-1cdf-3968-9811-0881de5823b5,False,81.3,,,Büro,,,25.33,,Wärmepumpe,,green,A+,Gemischt,,,13.24,49.07,,23.05,4.8,False
+f3aacb75-fa0a-32f7-a313-15e0721fa4ce,2df80de1-65c9-3c17-a449-abb6b88ea225,False,46.99,30.71,60.13,"Freizeit, Erholung & Gastro",Himmelsberg Ventures AG,2002,,True,Fernwärme,landscape,green,A+,,45.91,39.54,28.83,75.85,,71.48,,False
+f53adfbc-0436-329f-bb64-a4d5fd07f4dc,9c2e2535-c2f0-3fd7-9b3c-d14de6cf9835,False,86.05,,13.09,,Blauer Stern IT GmbH,,,,Öl-Heizung,portrait,,,Wohngebäude,42.57,,,21.38,,,,True
+f6292e77-e255-3774-8cfb-59a55643ad05,0f0f4a15-bb10-31f0-823e-b43f9f6df1c1,,51.31,25.02,84.7,,Goldmond Media GmbH,1993,,,Öl-Heizung,,,,Wohngebäude,,95.98,64.67,,76.19,,,True
+f6a1770c-12a7-3134-9837-7ba90083a74e,a6d36034-1aad-3c68-9383-0b372fe51abd,,71.53,,72.19,,Bavaria Techworks GmbH,,74.92,True,Gasheizung/Gasetagenheizung,,,,,19.82,,,,,,53.56,
+f7cd706e-cf7f-320d-b1a9-7532c639b6f9,266c3025-b1bd-31aa-91ee-2a845cdc373e,True,36.22,14.7,82.9,"Freizeit, Erholung & Gastro",Schattental Technologies AG,2000,,,Fernwärme,,,,,,,28.44,,,33.86,,False
+f9bfd766-f5d4-3bb1-bad6-c75d01cc93b9,1eec5d93-b4fb-3180-9654-911023d5c46e,True,,29.74,77.65,"Freizeit, Erholung & Gastro",Regenbach Media GmbH,1973,45.7,True,Fernwärme,portrait,,,,,,59.4,,,,,
+fabe93bf-0055-3d89-b07d-39cbae1535e4,3f03dea8-1cdf-3968-9811-0881de5823b5,,67.88,44.72,,,Klarwald Solutions GmbH,,,True,Gasheizung/Gasetagenheizung,landscape,,,,,,,,,,33.29,True
+fd9812d5-20e4-385d-b1b3-b971d8b135ea,1eec5d93-b4fb-3180-9654-911023d5c46e,,30.22,,53.84,"Freizeit, Erholung & Gastro",Glanzpunkt Digital AG,,93.97,True,Holzpellet-Heizung,landscape,red,D,Gewerbeimmobilie,,,58.9,,,38.37,,False
+fefe7e8a-c91e-34dc-ac5f-a5eba890f7ee,7a209a5c-a1a2-38b5-ac4e-9f2813ec6ca2,True,20.73,89.38,,Büro,Adlerklang Media GmbH,2006,,True,Öl-Heizung,landscape,green,A+,,,,32.5,67.63,15.56,66.77,25.7,False
+ffc5f569-afff-33c2-9495-e69289e0e19c,7a209a5c-a1a2-38b5-ac4e-9f2813ec6ca2,False,47.59,,,Gesundheitswesen,Windrose Solutions AG,2019,81.89,False,Holzpellet-Heizung,,green,A,,,32.06,3.11,43.85,,,,True
