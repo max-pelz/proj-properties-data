@@ -101,9 +101,10 @@ target/
 /catboost_info/
 
 # data
-*.csv
+# We allow some data to be committed in this repo for mock data
+#*.csv
+#*.pickle
 *.xlsx
-*.pickle
 /models
 
 # plots

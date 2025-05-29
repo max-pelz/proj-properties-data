@@ -8,6 +8,9 @@ Note that the pipeline structure follows dbt best practices. The scripts are ver
 
 The `data` folder contains another README with thoughts on the data and a summary of the actions taken, while the `plots` folder contains a README with some of the gained insights and the business recommendations following from those insights.
 
+## Data Policy
+All data is committed to this repository as it's based on mock data. Normally, we would exclude data files from version control. However, if you want to see the script's output, you'll need to run the pipeline locally as the processed data and generated plots are not included in the repository.
+
 ## Requirements
 It's assumed that you have python 3 installed on your machine. After cloning the repo follow these steps:
 
